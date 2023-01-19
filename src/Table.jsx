@@ -30,7 +30,7 @@ function Table({ records }) {
         <thead>
           <tr>
             <th>Tm</th>
-            {teams.map((team) => <th>{`${team}`}</th>)}
+            {teams.map((team) => <th>{team}</th>)}
           </tr>
         </thead>
         <tbody>
@@ -43,7 +43,7 @@ function Table({ records }) {
         <tfoot>
           <tr>
             <th>Tm</th>
-            {teams.map((team) => <th>{`${team}`}</th>)}
+            {teams.map((team) => <th>{team}</th>)}
           </tr>
         </tfoot>
       </table>
